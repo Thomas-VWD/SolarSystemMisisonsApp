@@ -1,0 +1,42 @@
+.headBox {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appLogo {
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+.appTitle {
+  box-sizing: border-box;
+}
+header {
+  width: 100vw;
+  height: 75vh;
+  margin-bottom: 2vh;
+  background: var(--bg-head);
+  p {
+    padding-top: 10vh;
+    margin-left: 15vw;
+    color: white;
+    font-family: var(--default-font);
+    font-size: 56px;
+    font-weight: 500;
+  }
+  .intro {
+    padding-top: 10vh;
+  }
+  .by {
+    padding-top: 0;
+    font-size: 32px;
+  }
+  .pdf {
+    margin-left: 15vw;
+  }
+}
+
+.illustrationPhoto {
+  height: 400px;
+}
