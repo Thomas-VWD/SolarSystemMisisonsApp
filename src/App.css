@@ -11,3 +11,13 @@ h1 {
   font-family: var(--default-font);
   font-weight: 700;
 }
+
+a {
+  color: var(--title-color);
+}
+a:visited {
+  color: #e65c00;
+}
+a:hover {
+  color: #f9d423;
+}
