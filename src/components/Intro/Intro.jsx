@@ -10,7 +10,9 @@ function Intro() {
 
   const handleGeneratePDF = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/api/generatePDF");
+      const response = await axios.get(
+        "https://backend-solar-system-missions.onrender.com/api/generatePDF"
+      );
       if (response.data.success) {
         toast.success("🦄 Le PDF a été généré avec succès!", {
           position: "top-center",
@@ -56,9 +58,12 @@ function Intro() {
 
   const handleViewPDF = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/api/viewPDF", {
-        responseType: "blob",
-      });
+      const response = await axios.get(
+        "https://backend-solar-system-missions.onrender.com/api/viewPDF",
+        {
+          responseType: "blob",
+        }
+      );
 
       const blob = new Blob([response.data], { type: "application/pdf" });
       const url = window.URL.createObjectURL(blob);
