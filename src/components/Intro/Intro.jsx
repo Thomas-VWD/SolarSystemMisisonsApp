@@ -11,7 +11,8 @@ function Intro() {
   const handleGeneratePDF = async () => {
     try {
       const response = await axios.get(
-        "https://backend-solar-system-missions.onrender.com/api/generatePDF"
+        "https://backend-solar-system-missions.onrender.com/api/generatePDF",
+        { timeout: 5000 }
       );
       if (response.data.success) {
         toast.success("🦄 Le PDF a été généré avec succès!", {
