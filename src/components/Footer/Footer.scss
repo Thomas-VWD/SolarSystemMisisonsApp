@@ -1,0 +1,16 @@
+footer {
+  height: 20vh;
+  background: var(--bg-head);
+  color: white;
+  font-family: var(--default-font);
+
+  h1,
+  p,
+  div {
+    padding-left: 15vw;
+  }
+
+  button {
+    margin-right: 2vw;
+  }
+}

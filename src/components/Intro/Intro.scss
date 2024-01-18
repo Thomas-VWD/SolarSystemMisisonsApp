@@ -1,0 +1,25 @@
+.introBox {
+  height: 60vh;
+  background: var(--bg-head);
+  p {
+    padding-top: 10vh;
+    margin-left: 15vw;
+    color: white;
+    font-family: var(--default-font);
+    font-size: 56px;
+    font-weight: 500;
+  }
+  .intro {
+    padding-top: 10vh;
+  }
+  .by {
+    padding-top: 0;
+    font-size: 32px;
+  }
+  .pdf {
+    margin-left: 15vw;
+  }
+  button {
+    margin-right: 2vw;
+  }
+}
