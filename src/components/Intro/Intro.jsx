@@ -94,7 +94,7 @@ function Intro() {
           <img src={githubLogo} alt="logo github" /> Thomas Verwaerde
         </a>
       </p>
-      <div>
+      <div className="buttonBox">
         <button className="pdf" onClick={handleGeneratePDF}>
           Générer le rapport
         </button>
@@ -103,14 +103,11 @@ function Intro() {
             Voir le PDF
           </button>
         )}
-        <button className="github">
-          <a
-            href="https://github.com/Thomas-VWD"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={githubLogo} alt="logo github" /> Voir sur Github
-          </a>
+        <button
+          className="github"
+          onClick={() => (location.href = "https://github.com/Thomas-VWD")}
+        >
+          Voir sur Github
         </button>
         <ToastContainer />
       </div>

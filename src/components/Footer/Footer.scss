@@ -14,3 +14,12 @@ footer {
     margin-right: 2vw;
   }
 }
+@media only screen and (max-width: 600px) {
+  footer {
+    height: 20vh;
+    font-size: 14px;
+    button {
+      display: none;
+    }
+  }
+}
