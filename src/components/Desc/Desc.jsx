@@ -7,8 +7,8 @@ function Desc() {
       <div className="descBloc">
         <div className="descTxt">
           <p>
-            {"L'exploration spatiale vous fait vibrer ?"} Alors bienvenue sur
-            cette mini app !
+            {"L'exploration spatiale vous fait vibrer ?"} Alors, bienvenue sur
+            cette application !
             <br />
             Obtenez votre rapport PDF des prochaines missions !
           </p>
@@ -16,7 +16,7 @@ function Desc() {
         <img
           className="descImg"
           src={spaceX}
-          alt="image d'illustration de la mission starship vers la planette Mars"
+          alt="Image d'illustration de la mission Starship vers la planète Mars."
         />
       </div>
     </>

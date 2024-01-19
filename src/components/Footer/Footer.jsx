@@ -4,7 +4,7 @@ import githubLogo from "/github-logo.svg";
 function Footer() {
   return (
     <footer>
-      <h1 className="footTitle">Solar Systeme Missions</h1>
+      <h1 className="footTitle">Solar System Missions</h1>
       <p className="by">
         By{" "}
         <a
@@ -29,7 +29,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Le back</button>
+          <button>Le projet Backend</button>
         </a>
       </div>
     </footer>
