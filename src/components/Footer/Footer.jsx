@@ -16,7 +16,6 @@ function Footer() {
         </a>
       </p>
       <div>
-        <button className="pdf">Install</button>
         <a
           href="https://github.com/Thomas-VWD/SolarSystemMisisonsApp"
           target="_blank"

@@ -4,6 +4,7 @@
   p {
     padding-top: 10vh;
     margin-left: 15vw;
+    margin-right: 15vw;
     color: white;
     font-family: var(--default-font);
     font-size: 56px;
@@ -15,12 +16,19 @@
   .by {
     padding-top: 0;
     font-size: 32px;
+    margin-top: 5vh;
   }
   .pdf {
     margin-left: 15vw;
   }
   button {
     margin-right: 2vw;
+    margin-top: 5vh;
+  }
+  .pdf,
+  .seePdf,
+  .github {
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -37,7 +45,8 @@
       text-align: center;
     }
     .by {
-      padding-top: 0;
+      text-align: center;
+      margin-top: 0;
       font-size: 14px;
     }
     .pdf,
